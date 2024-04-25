@@ -1,0 +1,22 @@
+.CurrencyNameWrapper {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 150;
+}
+
+.CurrencyName {
+    color: #FFFFFF;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+@media (max-width: 450px) {
+    .CurrencyName {
+        font-size: 40px;
+    }
+}
