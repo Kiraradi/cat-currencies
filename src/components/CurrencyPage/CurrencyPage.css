@@ -1,0 +1,5 @@
+.CurrencyPage {
+    display: flex;
+    flex-direction: column;
+    font-family: "Kreon", serif;
+}
